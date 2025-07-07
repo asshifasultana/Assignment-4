@@ -13,6 +13,6 @@ public class SalariedEmployee extends Employee {
     }
 
     public String toString(){
-        return "Salaried Employee Information: \n"+super.toString() + "Weekly salary:" + weeklySalary + "\nEarnings" + earnings() ;
+        return "Salaried Employee Information: \n"+super.toString() + "Weekly salary:" + weeklySalary + "\nEarnings:" + earnings() ;
     }
 }
