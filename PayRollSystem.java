@@ -14,7 +14,7 @@ public class PayRollSystem {
 
             if(e instanceof BasePlusCommissionEmployee){
                 System.out.println("Base Salary Increased by 10%");
-                System.out.println("Increased Base Salary:" + ((BasePlusCommissionEmployee) e).increaseBaseSalary());
+                System.out.println("Increased Base Salary:" + ((BasePlusCommissionEmployee) e).increaseBaseSalary() + "\n");
             }
         }
 
