@@ -15,7 +15,7 @@ public class HourlyEmployee extends Employee{
             return hourlySalary * hoursWorked;
         }
         else{
-            return hourlySalary * hoursWorked + (hoursWorked - 40) * 1.5 * hourlySalary;
+            return hourlySalary *40  + (hoursWorked - 40) * 1.5 * hourlySalary;
         }
     }
 
